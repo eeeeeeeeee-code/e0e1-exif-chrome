@@ -1,0 +1,120 @@
+:root {
+    --bg-color: #f9f9f9;
+    --text-color: #333;
+    --card-bg: #fff;
+    --border-color: #ddd;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bg-color: #222;
+        --text-color: #f9f9f9;
+        --card-bg: #333;
+        --border-color: #555;
+    }
+}
+
+body {
+    font-family: "Arial", sans-serif;
+    background: var(--bg-color);
+    color: var(--text-color);
+    margin: 0;
+    padding: 10px;/* 设置全局主题变量，支持暗黑模式 */
+    :root {
+        --bg-color: #f9f9f9;
+        --text-color: #333;
+        --card-bg: #fff;
+        --border-color: #ddd;
+        --shadow-color: rgba(0, 0, 0, 0.1);
+    }
+    
+    @media (prefers-color-scheme: dark) {
+        :root {
+            --bg-color: #222;
+            --text-color: #f9f9f9;
+            --card-bg: #333;
+            --border-color: #555;
+            --shadow-color: rgba(255, 255, 255, 0.1);
+        }
+    }
+    
+    /* 设置全局字体和背景 */
+    body {
+        font-family: "Arial", sans-serif;
+        background: var(--bg-color);
+        color: var(--text-color);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 300px;
+        height: 100vh;
+        margin: 0;
+        padding: 20px;
+    }
+    
+    /* 容器样式 */
+    .container {
+        text-align: center;
+        max-width: 350px;
+        padding: 20px;
+    }
+    
+    /* 标题样式 */
+    h2 {
+        font-size: 20px;
+        margin-bottom: 15px;
+        color: #007bff;
+    }
+    
+    /* 信息卡片 */
+    .card {
+        background: var(--card-bg);
+        padding: 15px;
+        border-radius: 12px;
+        box-shadow: 0px 4px 8px var(--shadow-color);
+        border: 1px solid var(--border-color);
+        text-align: left;
+    }
+    
+    /* 列表美化 */
+    .card ol {
+        padding-left: 20px;
+    }
+    
+    .card li {
+        margin-bottom: 8px;
+    }
+    
+    /* 公众号和 Star 文本美化 */
+    .card p {
+        margin-top: 10px;
+        text-align: center;
+        font-weight: bold;
+        color: #ff6f61;
+    }
+    
+    width: 300px;
+    text-align: center;
+}
+
+.container {
+    background: var(--card-bg);
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#exif-info {
+    font-size: 14px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid var(--border-color);
+    background: var(--card-bg);
+    word-wrap: break-word;
+    text-align: left;
+}
