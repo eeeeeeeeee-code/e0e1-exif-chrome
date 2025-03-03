@@ -4,10 +4,10 @@
   用于快捷输出图片exif信息嘎嘎好用，挖掘src细节参考深潜sec安全团队公众号文章
 
 ## 使用方法
-1.加载插件（看下面，暂不支持火狐有问题，chrome和edge都可）
-2.选中想要查看的图片，右键点击【在新标签页中打开图片】
+1.加载插件（看下面，暂不支持火狐有问题，chrome和edge都可）</br>
+2.选中想要查看的图片，右键点击【在新标签页中打开图片】</br>
 <img src="https://github.com/user-attachments/assets/fc8c02af-0cd9-4a76-baea-54e165bf49d3" width="300" /></br>
-3.在新标签页中选中图片，右键点击【检查图片 EXIF】即可，他会在屏幕中心自动显示exif信息
+3.在新标签页中选中图片，右键点击【检查图片 EXIF】即可，他会在屏幕中心自动显示exif信息 </br>
 <img src="https://github.com/user-attachments/assets/c137ee91-ce15-4ae1-92aa-e19b8d6f6ca9" width="300" /></br>
 <img src="https://github.com/user-attachments/assets/85381635-50b7-42aa-9569-a331c4d87a3d" width="300" /></br>
 
